@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #808080; /* Gris */
+  }
+  
+  #calculator {
+    background-color: #FFFFFF; /* Blanco */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Borde sombreado */
+    overflow: hidden;
+    max-width: 400px; /* Ancho máximo aumentado */
+    width: 100%;
+  }
+  
+  #screen {
+    text-align: right;
+    background-color: bisque;
+    padding: 40px; /* Padding aumentado */
+    font-size: 1.2em; /* Tamaño de fuente normal */
+    line-height: 1.5; /* Altura de línea aumentada para hacer la pantalla más grande */
+    border-bottom: 1px solid #B0C4DE;
+    white-space: nowrap; /* Evitar el ajuste automático de línea */
+  }
+  
+  #buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center; /* Centrar los botones */
+  }
+  
+  button {
+    border-bottom: #FFFFFF;
+    outline: none;
+    padding: 20px; /* Tamaño de botón aumentado */
+    align-items: center;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #87CEEB; /* Celeste */
+    width: 100%;
+  }
+  
+  button.operator {
+    color: #FFFFFF; /* Blanco */
+  }
+  
